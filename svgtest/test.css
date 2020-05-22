@@ -1,0 +1,33 @@
+.base {
+    /*background-image: url("data:image/svg+xml; [URLENCODEDSVG]");*/
+    background-image: url("data:image/svg+xml, %3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E");
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+
+
+/* FROM STACKOVERFLOW:;
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:#123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>
+
+*/
+
+
+
+/* SVG:
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:#123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>
+
+*/
+
+
+
+
+/* URLENCODED ( https://www.urlencoder.org/ )
+
+%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E
+
+*/
