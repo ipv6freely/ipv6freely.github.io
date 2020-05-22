@@ -11,7 +11,7 @@
 
 /* FROM STACKOVERFLOW:;
 
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:#123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>
+background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(31,159,215,1)' viewBox='...'/%3E%3C/svg%3E");
 
 */
 
