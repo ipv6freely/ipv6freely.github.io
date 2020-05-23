@@ -36,10 +36,6 @@ body {
 .controller.custom {
     width: 900px;
     height: 250px;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background-color: var(--base-color);
     mask: var(--base-url);
     -webkit-mask: var(--base-url);
@@ -61,6 +57,9 @@ body {
 .custom.disconnected div {
     display: none;
 }
+
+
+/*
 
 .dpad-up {
     width: 55.82px;
@@ -345,7 +344,7 @@ body {
     background-color: var(--start-color-hover);
 }
 
-
+*/
 
 
 
