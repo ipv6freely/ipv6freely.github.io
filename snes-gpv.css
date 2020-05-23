@@ -1,23 +1,23 @@
 :root {
     --x-color: #fff; /* X BUTTON COLOR */
-    --x-color-hover: #ff0000; /* X BUTTON COLOR WHEN HOVERING */
+    --x-color-pressed: #ff0000; /* X BUTTON COLOR WHEN PRESSED */
     --y-color: #fff; /* Y BUTTON COLOR */
-    --y-color-hover: #ff0000; /* Y BUTTON COLOR WHEN HOVERING */
+    --y-color-pressed: #ff0000; /* Y BUTTON COLOR WHEN PRESSED */
     --b-color: #fff; /* B BUTTON COLOR */
-    --b-color-hover: #ff0000; /* B BUTTON COLOR WHEN HOVERING */
+    --b-color-pressed: #ff0000; /* B BUTTON COLOR WHEN PRESSED */
     --a-color: #fff; /* A BUTTON COLOR */
-    --a-color-hover: #ff0000; /* A BUTTON COLOR WHEN HOVERING */
+    --a-color-pressed: #ff0000; /* A BUTTON COLOR WHEN PRESSED */
     --dpad-color: #fff; /* DPAD COLOR */
-    --dpad-color-hover: #ff0000; /* DPAD COLOR WHEN HOVERING */
+    --dpad-color-pressed: #ff0000; /* DPAD COLOR WHEN PRESSED */
     --bumper-color: #fff; /* BUMPER COLOR */
-    --bumper-color-hover: #ff0000; /* BUMPER COLOR WHEN HOVERING */
+    --bumper-color-pressed: #ff0000; /* BUMPER COLOR WHEN PRESSED */
     --select-color: #fff; /* SELECT BUTTON COLOR */
-    --select-color-hover: #ff0000; /* SELECT BUTTON COLOR WHEN HOVERING */
+    --select-color-pressed: #ff0000; /* SELECT BUTTON COLOR WHEN PRESSED */
     --start-color: #fff; /* START BUTTON COLOR */
-    --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
+    --start-color-pressed: #ff0000; /* START BUTTON COLOR WHEN PRESSED */
     --base-color: #000; /* BACKGROUND COLOR */
     --text-color: #000;
-    --text-color-hover: #fff;
+    --text-color-pressed: #fff;
 
     /* DON'T TOUCH THESE */
     --base-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 900 250"><rect class="cls-1" width="900" height="250" rx="32.57"/></svg>') no-repeat;
@@ -78,7 +78,7 @@ body {
 }
 
 .custom .bumper.pressed {
-    background-color: var(--bumper-color-hover);
+    background-color: var(--bumper-color-pressed);
 }
 
 .custom .bumper.left {
@@ -109,10 +109,10 @@ body {
 }
 
 .custom .bumper.left.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
 .custom .bumper.right.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
 
 
@@ -143,11 +143,11 @@ body {
 }
 
 .custom .back.pressed {
-    background-color: var(--select-color-hover);
+    background-color: var(--select-color-pressed);
 }
 
 .custom .start.pressed{
-    background-color: var(--start-color-hover);
+    background-color: var(--start-color-pressed);
 
 }
 .custom .back{
@@ -213,7 +213,7 @@ body {
 }
 
 .custom .face.pressed {
-    background-color: var(--dpad-color-hover);
+    background-color: var(--dpad-color-pressed);
 }
 
 /************** ABXY **************/
@@ -270,19 +270,19 @@ body {
 }
 
 .custom .button.a.pressed {
-    background-color: var(--a-color-hover);
+    background-color: var(--a-color-pressed);
 }
 
 .custom .button.b.pressed {
-    background-color: var(--b-color-hover);
+    background-color: var(--b-color-pressed);
 }
 
 .custom .button.x.pressed {
-    background-color: var(--x-color-hover);
+    background-color: var(--x-color-pressed);
 }
 
 .custom .button.y.pressed {
-    background-color: var(--y-color-hover);
+    background-color: var(--y-color-pressed);
 }
 
 
@@ -319,17 +319,17 @@ body {
 }
 
 .custom .button.a.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
 
 .custom .button.b.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
 
 .custom .button.x.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
 
 .custom .button.y.pressed::after {
-    color: var(--text-color-hover);
+    color: var(--text-color-pressed);
 }
