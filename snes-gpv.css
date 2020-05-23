@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -71,7 +71,7 @@ body {
 .custom .bumper {
     width: 87px;
     height: 211px;
-    position: absolte;
+    position: absolute;
     left: 19px;
     top: 19px;
     background-color: #ff0000;
