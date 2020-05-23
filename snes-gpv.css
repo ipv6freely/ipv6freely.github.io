@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -107,6 +107,9 @@ body {
 }
 
 .custom .bumper.left.pressed::after {
+    color: var(--text-color-hover);
+}
+.custom .bumper.right.pressed::after {
     color: var(--text-color-hover);
 }
 
