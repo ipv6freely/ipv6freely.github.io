@@ -48,7 +48,10 @@ body {
 
 /* This class shows the text when controller is disconnected */
 .custom.disconnected::after {
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
     content: "DISCONNECTED";
     color: #000;
 }
