@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -214,6 +214,32 @@ body {
 
 .custom .face.up.pressed {
     background-color: var(--dpad-color-hover);
+}
+
+/************** ABXY **************/
+
+
+.custom .abxy {
+    position: absolute;
+    display: block;
+    background-color: #ff0000;
+    width: 200px;
+    height: 180px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.custom .x {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    background-color: var(--x-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
 }
 
 /*
