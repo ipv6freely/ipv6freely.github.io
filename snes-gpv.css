@@ -62,6 +62,53 @@ body {
 }
 
 
+.custom .bumpers {
+    width: 900px;
+    height: 250px;
+    position: relative;
+}
+
+.custom .bumper {
+    width: 87px;
+    height: 211px;
+    position: absolte;
+    left: 19px;
+    top: 19px;
+}
+
+.custom .bumper.pressed {
+    background-color: var(--bumper-color-hover);
+}
+
+.custom .bumper.left {
+    background-color: var(--bumper-color);
+    mask: var(--bumper-url);
+    -webkit-mask: var(--bumper-url);
+}
+
+
+
+/*.bumper-left:hover,
+.bumper-left:focus {
+    background-color: var(--bumper-color-hover);
+}
+
+.bumper-left::after { 
+    left: 30px;
+    top: 80px;
+    position: absolute;
+    content: "L";
+    color: var(--text-color);
+}
+
+.bumper-left:hover::after,
+.bumper-left:focus::after {
+    color: var(--text-hover-color);
+}
+*/
+
+
+
 /*
 
 .dpad-up {
@@ -135,35 +182,7 @@ body {
     background-color: var(--dpad-color-hover);
 }
 
-.bumper-left {
-    width: 87px;
-    height: 211px;
-    display: block;
-    position: absolute;
-    left: 19px;
-    top: 19px;
-    background-color: var(--bumper-color);
-    mask: var(--bumper-url);
-    -webkit-mask: var(--bumper-url);
-}
 
-.bumper-left:hover,
-.bumper-left:focus {
-    background-color: var(--bumper-color-hover);
-}
-
-.bumper-left::after { 
-    left: 30px;
-    top: 80px;
-    position: absolute;
-    content: "L";
-    color: var(--text-color);
-}
-
-.bumper-left:hover::after,
-.bumper-left:focus::after {
-    color: var(--text-hover-color);
-}
 
 .bumper-right {
     width: 87px;
