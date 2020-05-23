@@ -74,6 +74,7 @@ body {
     position: absolte;
     left: 19px;
     top: 19px;
+    background-color: #ff0000;
 }
 
 .custom .bumper.pressed {
