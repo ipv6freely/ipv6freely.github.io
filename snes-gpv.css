@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -79,6 +79,10 @@ body {
     background-color: var(--bumper-color-hover);
 }
 
+.custom .bumper.pressed::after {
+    color: var(--text-hover-color);
+}
+
 .custom .bumper.left {
     float: left;
     margin-top: 19px;
@@ -110,7 +114,7 @@ body {
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 114px;
+    width: 150px;
     height: 57px;
     left: 50%;
     top: 50%;
@@ -149,24 +153,6 @@ start and select buttons. */
 }
 
 
-/*.bumper-left:hover,
-.bumper-left:focus {
-    background-color: var(--bumper-color-hover);
-}
-
-.bumper-left::after { 
-    left: 30px;
-    top: 80px;
-    position: absolute;
-    content: "L";
-    color: var(--text-color);
-}
-
-.bumper-left:hover::after,
-.bumper-left:focus::after {
-    color: var(--text-hover-color);
-}
-*/
 
 
 
@@ -243,37 +229,6 @@ start and select buttons. */
     background-color: var(--dpad-color-hover);
 }
 
-
-
-.bumper-right {
-    width: 87px;
-    height: 211px;
-    display: block;
-    position: absolute;
-    left: 794px;
-    top: 19px;
-    background-color: var(--bumper-color);
-    mask: var(--bumper-url);
-    -webkit-mask: var(--bumper-url);
-}
-
-.bumper-right:hover,
-.bumper-right:focus {
-    background-color: var(--bumper-color-hover);
-}
-
-.bumper-right::after { 
-    left: 30px;
-    top: 80px;
-    position: absolute;
-    content: "R";
-    color: var(--text-color);
-}
-
-.bumper-right:hover::after,
-.bumper-right:focus::after {
-    color: var(--text-hover-color);
-}
 
 .custom .x {
     width: 60px;
@@ -391,40 +346,6 @@ start and select buttons. */
 .a:hover::after,
 .a:focus::after {
     color: var(--text-hover-color);
-}
-
-.select {
-    width: 56.55px;
-    height: 56.55px;
-    display: block;
-    position: absolute;
-    left: 360px;
-    top: 95px;
-    background-color: var(--select-color);
-    mask: var(--startselect-url);
-    -webkit-mask: var(--startselect-url);
-}
-
-.select:hover,
-.select:focus {
-    background-color: var(--select-color-hover);
-}
-
-.start {
-    width: 56.55px;
-    height: 56.55px;
-    display: block;
-    position: absolute;
-    left: 420px;
-    top: 95px;
-    background-color: var(--start-color);
-    mask: var(--startselect-url);
-    -webkit-mask: var(--startselect-url);
-}
-
-.start:hover,
-.start:focus {
-    background-color: var(--start-color-hover);
 }
 
 */
