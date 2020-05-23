@@ -16,7 +16,7 @@
     --start-color: #fff; /* START BUTTON COLOR */
     --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
     --base-color: #000; /* BACKGROUND COLOR */
-    --text-color: #00ff00;
+    --text-color: #000;
     --text-color-hover: #fff;
 
     /* DON'T TOUCH THESE */
@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -288,12 +288,36 @@ body {
 
 .custom .button.a::after {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 15px;
+    left: 8px;
     content: "A";
     color: var(--text-color);
 }
+
+.custom .button.b::after {
+    position: relative;
+    top: 15px;
+    left: 8px;
+    content: "B";
+    color: var(--text-color);
+}
+
+.custom .button.x::after {
+    position: relative;
+    top: 15px;
+    left: 8px;
+    content: "X";
+    color: var(--text-color);
+}
+
+.custom .button.y::after {
+    position: relative;
+    top: 15px;
+    left: 8px;
+    content: "Y";
+    color: var(--text-color);
+}
+
 
 .custom .button.a.pressed::after {
     color: var(--text-color-hover);
