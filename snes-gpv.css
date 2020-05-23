@@ -318,14 +318,18 @@ body {
     color: var(--text-color);
 }
 
-
 .custom .button.a.pressed::after {
     color: var(--text-color-hover);
 }
 
+.custom .button.b.pressed::after {
+    color: var(--text-color-hover);
+}
 
+.custom .button.x.pressed::after {
+    color: var(--text-color-hover);
+}
 
-
-
-
-
+.custom .button.y.pressed::after {
+    color: var(--text-color-hover);
+}
