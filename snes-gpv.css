@@ -43,12 +43,12 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
 .custom.disconnected::after {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);    
@@ -71,8 +71,6 @@ body {
 .custom .bumper {
     width: 87px;
     height: 211px;
-    left: 19px;
-    top: 19px;
     background-color: var(--bumper-color);
     mask: var(--bumper-url);
     -webkit-mask: var(--bumper-url);
@@ -84,6 +82,8 @@ body {
 
 .custom .bumper.left {
     float: left;
+    margin-top: 19px;
+    margin-left: 19px;
 }
 .custom .bumper.right {
     float: right;
