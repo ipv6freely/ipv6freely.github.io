@@ -77,7 +77,6 @@ body {
 
 .custom .bumper.pressed {
     background-color: var(--bumper-color-hover);
-    color: var(--text-color-hover);
 }
 
 .custom .bumper.left {
@@ -106,6 +105,11 @@ body {
     content: "R";
     color: var(--text-color);
 }
+
+.custom .bumper.left.pressed::after {
+    color: var(--text-color-hover);
+}
+
 
 /* This is to size and position the containing div for the 
 start and select buttons. */
