@@ -218,7 +218,6 @@ body {
 
 /************** ABXY **************/
 
-
 .custom .abxy {
     position: absolute;
     width: 210px;
@@ -286,199 +285,21 @@ body {
     background-color: var(--y-color-hover);
 }
 
-/*
 
-.dpad-up {
-    width: 55.82px;
-    height: 89.52px;
-    display: block;
-    position: absolute;
-    left: 192px;
-    top: 33px;
-    background-color: var(--dpad-color);
-    mask: var(--dpad-url);
-    -webkit-mask: var(--dpad-url);
-}
-
-.dpad-up:hover,
-.dpad-up:focus {
-    background-color: var(--dpad-color-hover);
-}
-
-.dpad-right {
-    width: 55.82px;
-    height: 89.52px;
-    display: block;
-    position: absolute;
-    left: 237px;
-    top: 77px;
-    background-color: var(--dpad-color);
-    mask: var(--dpad-url);
-    -webkit-mask: var(--dpad-url);
-    transform: rotate(90deg);
-}
-
-.dpad-right:hover,
-.dpad-right:focus {
-    background-color: var(--dpad-color-hover);
-}
-
-.dpad-down {
-    width: 55.82px;
-    height: 89.52px;
-    display: block;
-    position: absolute;
-    left: 192px;
-    top: 121px;
-    background-color: var(--dpad-color);
-    mask: var(--dpad-url);
-    -webkit-mask: var(--dpad-url);
-    transform: rotate(180deg);
-}
-
-.dpad-down:hover,
-.dpad-down:focus {
-    background-color: var(--dpad-color-hover);
-}
-
-.dpad-left {
-    width: 55.82px;
-    height: 89.52px;
-    display: block;
-    position: absolute;
-    left: 147px;
-    top: 77px;
-    background-color: var(--dpad-color);
-    mask: var(--dpad-url);
-    -webkit-mask: var(--dpad-url);
-    transform: rotate(270deg);
-}
-
-.dpad-left:hover,
-.dpad-left:focus {
-    background-color: var(--dpad-color-hover);
-}
-
-
-.custom .x {
-    width: 60px;
-    height: 60px;
-    display: block;
-    position: absolute;
-    left: 609px;
-    top: 38px;
-    background-color: var(--x-color);
-    mask: var(--abxy-url);
-    -webkit-mask: var(--abxy-url);
-}
-
-.custom .x.pressed {
-    background-color: var(--x-color-hover);
-}
-
-.custom .x::after { 
-    left: 15px;
-    top: 8px;
-    position: absolute;
-    content: "X";
-    color: var(--text-color);
-}
-
-.custom .x.pressed::after {
-    color: var(--text-hover-color);
-}
-
-.b {
-    width: 60px;
-    height: 60px;
-    display: block;
-    position: absolute;
-    left: 609px;
-    top: 153px;
-    background-color: var(--b-color);
-    mask: var(--abxy-url);
-    -webkit-mask: var(--abxy-url);
-}
-
-.b:hover,
-.b:focus {
-    background-color: var(--b-color-hover);
-}
-
-.b::after { 
-    left: 15px;
-    top: 8px;
-    position: absolute;
-    content: "B";
-    color: var(--text-color);
-}
-
-.b:hover::after,
-.b:focus::after {
-    color: var(--text-hover-color);
-}
-
-.y {
-    width: 60px;
-    height: 60px;
-    display: block;
-    position: absolute;
-    left: 524px;
-    top: 95px;
-    background-color: var(--y-color);
-    mask: var(--abxy-url);
-    -webkit-mask: var(--abxy-url);
-}
-
-.y:hover,
-.y:focus {
-    background-color: var(--y-color-hover);
-}
-
-.y::after { 
-    left: 15px;
-    top: 8px;
-    position: absolute;
-    content: "Y";
-    color: var(--text-color);
-}
-
-.y:hover::after,
-.y:focus::after {
-    color: var(--text-hover-color);
-}
-
-.a {
-    width: 60px;
-    height: 60px;
-    display: block;
-    position: absolute;
-    left: 704px;
-    top: 95px;
-    background-color: var(--a-color);
-    mask: var(--abxy-url);
-    -webkit-mask: var(--abxy-url);
-}
-
-.a:hover,
-.a:focus {
-    background-color: var(--a-color-hover);
-}
-
-.a::after { 
-    left: 15px;
-    top: 8px;
-    position: absolute;
+.custom .button.a::after {
+    position: relative;
+    top: 80px;
+    left: 30px;
     content: "A";
     color: var(--text-color);
 }
 
-.a:hover::after,
-.a:focus::after {
-    color: var(--text-hover-color);
+.custom .button.a.pressed::after {
+    color: var(--text-color-hover);
 }
 
-*/
+
+
 
 
 
