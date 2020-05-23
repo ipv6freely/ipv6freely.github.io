@@ -16,7 +16,7 @@
     --start-color: #fff; /* START BUTTON COLOR */
     --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
     --base-color: #000; /* BACKGROUND COLOR */
-    --text-color: #000;
+    --text-color: #00ff00;
     --text-color-hover: #fff;
 
     /* DON'T TOUCH THESE */
@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
