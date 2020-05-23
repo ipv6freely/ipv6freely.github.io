@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -288,8 +288,8 @@ body {
 
 .custom .button.a::after {
     position: relative;
-    top: 80px;
-    left: 30px;
+    top: 0px;
+    left: 0px;
     content: "A";
     color: var(--text-color);
 }
