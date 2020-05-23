@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -110,7 +110,7 @@ body {
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 112px;
+    width: 114px;
     height: 250px;
     left: 50%;
     transform: translateX(-50%);
@@ -119,8 +119,8 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
-    width: 56.55px;
-    height: 56.55px;
+    width: 57px;
+    height: 57px;
     background-color: var(--select-color);
     mask: var(--startselect-url);
     -webkit-mask: var(--startselect-url);
