@@ -1,23 +1,251 @@
 :root {
-    --cross-color: #00ff00; /* CROSS COLOR */
-    --cross-color-hover: #ff0000; /* CROSS COLOR WHEN HOVERING */
+    --x-color: #fff; /* X BUTTON COLOR */
+    --x-color-hover: #ff0000; /* X BUTTON COLOR WHEN HOVERING */
+    --y-color: #fff; /* Y BUTTON COLOR */
+    --y-color-hover: #ff0000; /* Y BUTTON COLOR WHEN HOVERING */
+    --b-color: #fff; /* B BUTTON COLOR */
+    --b-color-hover: #ff0000; /* B BUTTON COLOR WHEN HOVERING */
+    --a-color: #fff; /* A BUTTON COLOR */
+    --a-color-hover: #ff0000; /* A BUTTON COLOR WHEN HOVERING */
+    --dpad-color: #fff; /* DPAD COLOR */
+    --dpad-color-hover: #ff0000; /* DPAD COLOR WHEN HOVERING */
+    --bumper-color: #fff; /* BUMPER COLOR */
+    --bumper-color-hover: #ff0000; /* BUMPER COLOR WHEN HOVERING */
+    --select-color: #fff; /* SELECT BUTTON COLOR */
+    --select-color-hover: #ff0000; /* SELECT BUTTON COLOR WHEN HOVERING */
+    --start-color: #fff; /* START BUTTON COLOR */
+    --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
+    --base-color: #000; /* BACKGROUND COLOR */
+
+
+    /* DON'T TOUCH THESE */
+    --base-url: url('data:image/svg+xml;utf8, <svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250"><rect class="cls-1" width="900" height="250" rx="32.57"/></svg>') no-repeat;
+    --abxy-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 60 60"><circle class="cls-1" cx="30" cy="30" r="30"/></svg>') no-repeat;
+    --startselect-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 56.55 56.55"><rect class="cls-1" x="1103.78" y="1168.14" width="72.38" height="18.42" rx="9.21" transform="translate(1666.87 54.71) rotate(135)"/></svg>') no-repeat;
+
 }
 
-.icon {
-    width: 200px;
-    height: 200px;
+.base {
+    width: 900px;
+    height: 250px;
     display: block;
-    background-color: var(--cross-color);
-    -webkit-mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
-    mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--base-color);
+    mask: var(--base-url);
+    -webkit-mask: var(--base-url);
 }
 
-.icon:hover,
-.icon:focus {
-    width: 200px;
-    height: 200px;
+.dpad-up {
+    width: 55.82px;
+    height: 89.52px;
     display: block;
-    background-color: var(--cross-color-hover);
-    -webkit-mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
-    mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
+    position: absolute;
+    left: 192px;
+    top: 33px;
+    background-color: var(--dpad-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
 }
+
+.dpad-up:hover,
+.dpad-up:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-right {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 237px;
+    top: 77px;
+    background-color: var(--dpad-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    transform: rotate(90deg);
+}
+
+.dpad-right:hover,
+.dpad-right:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-down {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 192px;
+    top: 121px;
+    background-color: var(--dpad-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    transform: rotate(180deg);
+}
+
+.dpad-down:hover,
+.dpad-down:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-left {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 147px;
+    top: 77px;
+    background-color: var(--dpad-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat;
+    transform: rotate(270deg);
+}
+
+.dpad-left:hover,
+.dpad-left:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.bumper-left {
+    width: 87px;
+    height: 211px;
+    display: block;
+    position: absolute;
+    left: 19px;
+    top: 19px;
+    background-color: var(--bumper-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 87 211"><rect class="cls-1" width="87" height="211" rx="12"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 87 211"><rect class="cls-1" width="87" height="211" rx="12"/></svg>') no-repeat;
+}
+
+.bumper-left:hover,
+.bumper-left:focus {
+    background-color: var(--bumper-color-hover);
+}
+
+.bumper-right {
+    width: 87px;
+    height: 211px;
+    display: block;
+    position: absolute;
+    left: 794px;
+    top: 19px;
+    background-color: var(--bumper-color);
+    mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 87 211"><rect class="cls-1" width="87" height="211" rx="12"/></svg>') no-repeat;
+    -webkit-mask: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 87 211"><rect class="cls-1" width="87" height="211" rx="12"/></svg>') no-repeat;
+}
+
+.bumper-right:hover,
+.bumper-right:focus {
+    background-color: var(--bumper-color-hover);
+}
+
+.x {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 609px;
+    top: 38px;
+    background-color: var(--x-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.x:hover,
+.x:focus {
+    background-color: var(--x-color-hover);
+}
+
+.b {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 609px;
+    top: 153px;
+    background-color: var(--b-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.b:hover,
+.b:focus {
+    background-color: var(--b-color-hover);
+}
+
+.y {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 524px;
+    top: 95px;
+    background-color: var(--y-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.y:hover,
+.y:focus {
+    background-color: var(--y-color-hover);
+}
+
+.a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 704px;
+    top: 95px;
+    background-color: var(--a-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.a:hover,
+.a:focus {
+    background-color: var(--a-color-hover);
+}
+
+.select {
+    width: 56.55px;
+    height: 56.55px;
+    display: block;
+    position: absolute;
+    left: 360px;
+    top: 95px;
+    background-color: var(--select-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
+}
+
+.select:hover,
+.select:focus {
+    background-color: var(--select-color-hover);
+}
+
+.start {
+    width: 56.55px;
+    height: 56.55px;
+    display: block;
+    position: absolute;
+    left: 420px;
+    top: 95px;
+    background-color: var(--start-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
+}
+
+.start:hover,
+.start:focus {
+    background-color: var(--start-color-hover);
+}
+
+
+
+
+
+
