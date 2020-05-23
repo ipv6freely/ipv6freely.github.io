@@ -43,15 +43,15 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
-/*.custom.disconnected::after {
+.custom.disconnected::after {
     text-align: center;
     content: "DISCONNECTED";
     color: #000;
-}*/
+}
 
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
