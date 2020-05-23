@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -118,23 +118,35 @@ start and select buttons. */
     display: block;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+.custom .back{
+    width: 56.55px;
+    height: 56.55px;
+    background-color: var(--select-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
 }
-.custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
+
+.custom .start{
+    width: 56.55px;
+    height: 56.55px;
+    background-color: var(--start-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
+}
+
+.custom .back.pressed {
+    background-color: var(--select-color-hover);
+}
+
+.custom .start.pressed{
+    background-color: var(--start-color-hover);
+
 }
 .custom .back{
     float: left;
-    width: 38px;
 }
 .custom .start{
     float: right;
-    width: 36px;
-    background-position: 37px 0;
 }
 
 
