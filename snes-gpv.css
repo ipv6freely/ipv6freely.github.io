@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -162,8 +162,8 @@ body {
 
 .custom .dpad {
     position: absolute;
-    width: 179px;
-    height: 179px;
+    width: 180px;
+    height: 180px;
     left: 147px;
     top: 50%;
     transform: translateY(-50%);
