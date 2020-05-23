@@ -65,7 +65,7 @@ body {
 .custom .bumpers {
     width: 900px;
     height: 250px;
-    position: relative;
+    position: absolute;
 }
 
 .custom .bumper {
