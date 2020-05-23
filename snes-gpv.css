@@ -193,7 +193,7 @@ body {
     color: var(--text-hover-color);
 }
 
-.x {
+.custom .x {
     width: 60px;
     height: 60px;
     display: block;
@@ -205,12 +205,11 @@ body {
     -webkit-mask: var(--abxy-url);
 }
 
-.x:hover,
-.x:focus {
+.custom .x.pressed {
     background-color: var(--x-color-hover);
 }
 
-.x::after { 
+.custom .x::after { 
     left: 15px;
     top: 8px;
     position: absolute;
@@ -218,8 +217,7 @@ body {
     color: var(--text-color);
 }
 
-.x:hover::after,
-.x:focus::after {
+.custom .x.pressed::after {
     color: var(--text-hover-color);
 }
 
