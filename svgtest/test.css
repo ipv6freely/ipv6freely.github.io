@@ -22,7 +22,14 @@
     --base-url: url('data:image/svg+xml;utf8, <svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250"><rect class="cls-1" width="900" height="250" rx="32.57"/></svg>') no-repeat;
     --abxy-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 60 60"><circle class="cls-1" cx="30" cy="30" r="30"/></svg>') no-repeat;
     --startselect-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 56.55 56.55"><rect class="cls-1" x="1103.78" y="1168.14" width="72.38" height="18.42" rx="9.21" transform="translate(1666.87 54.71) rotate(135)"/></svg>') no-repeat;
+    --a-character-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 28.15 30.1"><path d="M1472.51,1189.05l10.13-26.59a1.75,1.75,0,0,1,.62-.84,1.6,1.6,0,0,1,1-.31h4.47a1.6,1.6,0,0,1,1,.31,1.82,1.82,0,0,1,.62.84l10.13,26.59a1.63,1.63,0,0,1-.19,1.61,1.69,1.69,0,0,1-1.44.75h-3.08a1.57,1.57,0,0,1-1.63-1.16l-2.11-5.66a.12.12,0,0,0-.14-.14H1481.1a.12.12,0,0,0-.14.14l-2.11,5.66a1.55,1.55,0,0,1-1.59,1.16h-3.12a1.66,1.66,0,0,1-1.44-.75A1.63,1.63,0,0,1,1472.51,1189.05Zm10.9-10.51h6.14c.16,0,.21-.06.14-.19l-3.07-8.45a.18.18,0,0,0-.17-.09.16.16,0,0,0-.16.09l-3.08,8.4C1483.12,1178.46,1483.18,1178.54,1483.41,1178.54Z" transform="translate(-1472.38 -1161.31)"/></svg>') no-repeat;
 
+}
+
+body { 
+    font-family: sans-serif; 
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .base {
@@ -205,9 +212,33 @@
     -webkit-mask: var(--abxy-url);
 }
 
+/*.a::after { 
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 704px;
+    top: 95px;
+    background-color: #00ff00;
+    content: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 28.15 30.1"><path d="M1472.51,1189.05l10.13-26.59a1.75,1.75,0,0,1,.62-.84,1.6,1.6,0,0,1,1-.31h4.47a1.6,1.6,0,0,1,1,.31,1.82,1.82,0,0,1,.62.84l10.13,26.59a1.63,1.63,0,0,1-.19,1.61,1.69,1.69,0,0,1-1.44.75h-3.08a1.57,1.57,0,0,1-1.63-1.16l-2.11-5.66a.12.12,0,0,0-.14-.14H1481.1a.12.12,0,0,0-.14.14l-2.11,5.66a1.55,1.55,0,0,1-1.59,1.16h-3.12a1.66,1.66,0,0,1-1.44-.75A1.63,1.63,0,0,1,1472.51,1189.05Zm10.9-10.51h6.14c.16,0,.21-.06.14-.19l-3.07-8.45a.18.18,0,0,0-.17-.09.16.16,0,0,0-.16.09l-3.08,8.4C1483.12,1178.46,1483.18,1178.54,1483.41,1178.54Z" transform="translate(-1472.38 -1161.31)"/></svg>');
+}*/
+
+.a::after { 
+    left: 15px;
+    top: 8px;
+    position: absolute;
+    content: "A";
+    color: #000;
+}
+
 .a:hover,
 .a:focus {
     background-color: var(--a-color-hover);
+}
+
+.a:hover::after,
+.a:focus::after {
+    color: #fff;
 }
 
 .select {
