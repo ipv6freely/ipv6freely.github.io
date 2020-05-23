@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -240,6 +240,15 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+    background-color: var(--x-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.custom .b {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
     background-color: var(--x-color);
     mask: var(--abxy-url);
     -webkit-mask: var(--abxy-url);
