@@ -1,0 +1,158 @@
+
+/*$shape: "%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%2300ff00%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E"*/
+/*$shapeHover: "%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23ff0000%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E"*/
+
+/*:root {
+    --greenbox: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%2300ff00;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');
+    --redbox: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%23ff0000;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');
+}*/
+
+/*$icon: "<svg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 170.97 185.48'><defs><style>.cls-1{fill:%23123456;}</style></defs><rect class='cls-1' width='170.97' height='185.48' rx='12'/></svg>"*/
+
+/*$icon: "%3Csvg class='foo' id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 170.97 185.48'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23123456;}%3C/style%3E%3C/defs%3E%3Crect class='cls-1' width='170.97' height='185.48' rx='12'/%3E%3C/svg%3E";*/
+
+
+/*$icon: "%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.5,22C11.64,22 11.77,22 11.9,21.96C12.55,21.82 13.09,21.38 13.34,20.78C13.44,20.54 13.5,20.27 13.5,20H9.5A2,2 0 0,0 11.5,22M18,10.5C18,7.43 15.86,4.86 13,4.18V3.5A1.5,1.5 0 0,0 11.5,2A1.5,1.5 0 0,0 10,3.5V4.18C7.13,4.86 5,7.43 5,10.5V16L3,18V19H20V18L18,16M19.97,10H21.97C21.82,6.79 20.24,3.97 17.85,2.15L16.42,3.58C18.46,5 19.82,7.35 19.97,10M6.58,3.58L5.15,2.15C2.76,3.97 1.18,6.79 1,10H3C3.18,7.35 4.54,5 6.58,3.58Z'%3E%3C/path%3E%3C/svg%3E";*/
+/*$iconHover: "%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='red' d='M11.5,22C11.64,22 11.77,22 11.9,21.96C12.55,21.82 13.09,21.38 13.34,20.78C13.44,20.54 13.5,20.27 13.5,20H9.5A2,2 0 0,0 11.5,22M18,10.5C18,7.43 15.86,4.86 13,4.18V3.5A1.5,1.5 0 0,0 11.5,2A1.5,1.5 0 0,0 10,3.5V4.18C7.13,4.86 5,7.43 5,10.5V16L3,18V19H20V18L18,16M19.97,10H21.97C21.82,6.79 20.24,3.97 17.85,2.15L16.42,3.58C18.46,5 19.82,7.35 19.97,10M6.58,3.58L5.15,2.15C2.76,3.97 1.18,6.79 1,10H3C3.18,7.35 4.54,5 6.58,3.58Z'%3E%3C/path%3E%3C/svg%3E";*/
+
+/*body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-repeat: no-repeat;    
+}
+
+.icon-box {
+    background-image: url("data:image/svg+xml, #{$icon}");
+    background-size: cover;
+}
+
+.icon-box:hover,
+.icon-box:focus {
+    background-image: url("data:image/svg+xml, #{$iconHover}");
+}*/
+
+/*#{$bikeHover}*/
+
+/*%23123456
+
+
+:root {
+
+    --bg-color: red;
+
+}*/
+
+
+
+/*<svg id="a55354cf-cb68-4fd6-9775-739806c8d2fd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path d="M531.94,1166.87h-48v-48a12,12,0,0,0-12-12h-56a12,12,0,0,0-12,12v48h-48a12,12,0,0,0-12,12v56a12,12,0,0,0,12,12h48v48a12,12,0,0,0,12,12h56a12,12,0,0,0,12-12v-48h48a12,12,0,0,0,12-12v-56A12,12,0,0,0,531.94,1166.87Z" transform="translate(-343.94 -1106.87)"/></svg>*/
+
+
+/*<svg xmlns='http://www.w3.org/2000/svg' id='icon-cross' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>*/
+
+/*.cls-1 { fill: #ff0000; }*/
+
+:root {
+    --cross-color: #00ff00;
+}
+
+
+.icon {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: var(--cross-color);
+    -webkit-mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
+    mask: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>") no-repeat;
+}
+
+/*.icon {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>");
+    background-size: cover;
+}
+
+.icon-orange {
+    filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
+}*/
+
+/*.icon {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: red; 
+    mask-size: cover;
+    mask-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>");
+    background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' id='a55354cf-cb68-4fd6-9775-739806c8d2fd' data-name='Layer 1' viewBox='0 0 200 200'><path d='M531.94 1166.87h-48v-48a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v48h-48a12 12 0 0 0-12 12v56a12 12 0 0 0 12 12h48v48a12 12 0 0 0 12 12h56a12 12 0 0 0 12-12v-48h48a12 12 0 0 0 12-12v-56A12 12 0 0 0 531.94 1166.87Z' transform='translate(-343.94 -1106.87)'/></svg>");
+*/
+    /*background-image: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');*/
+    /*background-image: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%23123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');*/
+    /*background-image: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%23#{var(--bg-color)};}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');*/
+
+/*}*/
+
+
+/*.base {*/
+    /*background-image: url("data:image/svg+xml; [URLENCODEDSVG]");*/
+    /*background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(31,159,215,1)' viewBox='0%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%20%0A'/%3E%3C/svg%3E");*/
+
+    /*background-image: url("data:image/svg+xml, %3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E");*/
+
+    /*background-image: url('data:image/svg+xml;utf8,<svg> ... </svg>');*/
+
+    /*background-image: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%23123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');*/
+ 
+    /*background-image: url('data:image/svg+xml;utf8,<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:%23123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>');*/
+
+    /*background-image: var(--greenbox);*/
+
+
+
+
+/*svg.foo { fill: #ff0000; }*/
+
+
+/* FROM STACKOVERFLOW:;
+
+background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(31,159,215,1)' viewBox='...'/%3E%3C/svg%3E");
+background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(31,159,215,1)' viewBox='0%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%20%0A'/%3E%3C/svg%3E");
+
+*/
+
+
+
+/* SVG:
+
+<svg class="foo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.97 185.48"><defs><style>.cls-1{fill:#123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12"/></svg>
+
+*/
+
+
+
+
+/* URLENCODED ( https://www.urlencoder.org/ )
+
+%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%2F%3E%3C%2Fsvg%3E
+
+*/
+
+
+/*
+
+0 0 170.97 185.48"><defs><style>.cls-1{fill:#123456;}</style></defs><rect class="cls-1" width="170.97" height="185.48" rx="12" 
+
+0%200%20170.97%20185.48%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23123456%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Crect%20class%3D%22cls-1%22%20width%3D%22170.97%22%20height%3D%22185.48%22%20rx%3D%2212%22%20%0A
+
+*/
+
