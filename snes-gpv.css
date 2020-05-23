@@ -71,9 +71,8 @@ body {
 .custom .bumper {
     width: 87px;
     height: 211px;
-/*    position: absolute;
     left: 19px;
-    top: 19px;*/
+    top: 19px;
     background-color: var(--bumper-color);
     mask: var(--bumper-url);
     -webkit-mask: var(--bumper-url);
@@ -85,13 +84,9 @@ body {
 
 .custom .bumper.left {
     float: left;
-    left: 19px;
-    top: 19px;
 }
 .custom .bumper.right {
     float: right;
-    left: 19px;
-    top: 19px;
 }
 
 
