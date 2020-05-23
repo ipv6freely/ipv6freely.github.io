@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -184,7 +184,7 @@ body {
     -webkit-mask: var(--dpad-url);
 }
 
-.custom .face.pressed {
+.custom .face.up.pressed {
     background-color: var(--dpad-color-hover);
     mask: var(--dpad-url);
     -webkit-mask: var(--dpad-url);
