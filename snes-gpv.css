@@ -34,7 +34,7 @@ body {
 }
 
 .controller.custom {
-    width: 900px;
+    width: 9900px;
     height: 250px;
     display: block;
     position: absolute;
@@ -47,7 +47,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
