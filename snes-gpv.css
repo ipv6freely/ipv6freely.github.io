@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -61,11 +61,10 @@ body {
     display: none;
 }
 
-
 .custom .bumpers {
+    position: absolute;
     width: 900px;
     height: 250px;
-    position: absolute;
 }
 
 .custom .bumper {
@@ -106,6 +105,38 @@ body {
     content: "R";
     color: var(--text-color);
 }
+
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 112px;
+    height: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+    display: block;
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+    background: url(ps3-assets/menus.png);
+    width: 34px;
+    height: 19px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background-position-y: -21px;
+    margin-top: 2px;
+}
+.custom .back{
+    float: left;
+    width: 38px;
+}
+.custom .start{
+    float: right;
+    width: 36px;
+    background-position: 37px 0;
+}
+
 
 /*.bumper-left:hover,
 .bumper-left:focus {
