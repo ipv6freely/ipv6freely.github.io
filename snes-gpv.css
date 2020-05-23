@@ -17,7 +17,7 @@
     --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
     --base-color: #000; /* BACKGROUND COLOR */
     --text-color: #000;
-    --text-hover-color: #fff;
+    --text-color-hover: #fff;
 
     /* DON'T TOUCH THESE */
     --base-url: url('data:image/svg+xml;utf8, <svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250"><rect class="cls-1" width="900" height="250" rx="32.57"/></svg>') no-repeat;
@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -77,7 +77,7 @@ body {
 
 .custom .bumper.pressed {
     background-color: var(--bumper-color-hover);
-    color: var(--text-hover-color);
+    color: var(--text-color-hover);
 }
 
 .custom .bumper.left {
