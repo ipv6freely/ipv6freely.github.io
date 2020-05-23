@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -60,6 +60,8 @@ body {
 .custom.disconnected div {
     display: none;
 }
+
+/************** BUMPERS ***************/
 
 .custom .bumpers {
     position: absolute;
@@ -114,8 +116,8 @@ body {
 }
 
 
-/* This is to size and position the containing div for the 
-start and select buttons. */
+/************** SELECT AND START **************/
+
 .custom .arrows{
     position: absolute;
     width: 150px;
@@ -124,7 +126,6 @@ start and select buttons. */
     top: 50%;
     transform: translate(-50%, -50%);
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
     width: 57px;
     height: 57px;
@@ -157,7 +158,18 @@ start and select buttons. */
 }
 
 
+/************** DPAD **************/
 
+.custom .dpad {
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    left: 147px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    background: #ff0000;
+}
 
 
 /*
