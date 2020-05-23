@@ -1,0 +1,354 @@
+:root {
+    --x-color: #fff; /* X BUTTON COLOR */
+    --x-color-hover: #ff0000; /* X BUTTON COLOR WHEN HOVERING */
+    --y-color: #fff; /* Y BUTTON COLOR */
+    --y-color-hover: #ff0000; /* Y BUTTON COLOR WHEN HOVERING */
+    --b-color: #fff; /* B BUTTON COLOR */
+    --b-color-hover: #ff0000; /* B BUTTON COLOR WHEN HOVERING */
+    --a-color: #fff; /* A BUTTON COLOR */
+    --a-color-hover: #ff0000; /* A BUTTON COLOR WHEN HOVERING */
+    --dpad-color: #fff; /* DPAD COLOR */
+    --dpad-color-hover: #ff0000; /* DPAD COLOR WHEN HOVERING */
+    --bumper-color: #fff; /* BUMPER COLOR */
+    --bumper-color-hover: #ff0000; /* BUMPER COLOR WHEN HOVERING */
+    --select-color: #fff; /* SELECT BUTTON COLOR */
+    --select-color-hover: #ff0000; /* SELECT BUTTON COLOR WHEN HOVERING */
+    --start-color: #fff; /* START BUTTON COLOR */
+    --start-color-hover: #ff0000; /* START BUTTON COLOR WHEN HOVERING */
+    --base-color: #000; /* BACKGROUND COLOR */
+    --text-color: #000;
+    --text-hover-color: #fff;
+
+    /* DON'T TOUCH THESE */
+    --base-url: url('data:image/svg+xml;utf8, <svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250"><rect class="cls-1" width="900" height="250" rx="32.57"/></svg>') no-repeat;
+    --dpad-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 55.82 89.52"><path d="M1011.59,1149.44v-50.07a11.57,11.57,0,0,0-11.54-11.53H967.3a11.57,11.57,0,0,0-11.53,11.53v50.07l27.91,27.91Z" transform="translate(-955.77 -1087.84)"/></svg>') no-repeat; 
+    --abxy-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 60 60"><circle class="cls-1" cx="30" cy="30" r="30"/></svg>') no-repeat;
+    --startselect-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 56.55 56.55"><rect class="cls-1" x="1103.78" y="1168.14" width="72.38" height="18.42" rx="9.21" transform="translate(1666.87 54.71) rotate(135)"/></svg>') no-repeat;
+    --bumper-url: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5" viewBox="0 0 87 211"><rect class="cls-1" width="87" height="211" rx="12"/></svg>') no-repeat;
+}
+
+body { 
+    font-family: sans-serif; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.controller.custom {
+    width: 900px;
+    height: 250px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--base-color);
+    mask: var(--base-url);
+    -webkit-mask: var(--base-url);
+}
+
+/* This class shows an image when the controller is disconnected */
+.custom.disconnected {
+    background-color: #ff0000;
+}
+
+/* This class shows the text when controller is disconnected */
+.custom.disconnected::after {
+    text-align: center;
+    content: "DISCONNECTED";
+    color: #000;
+}
+
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+
+.dpad-up {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 192px;
+    top: 33px;
+    background-color: var(--dpad-color);
+    mask: var(--dpad-url);
+    -webkit-mask: var(--dpad-url);
+}
+
+.dpad-up:hover,
+.dpad-up:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-right {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 237px;
+    top: 77px;
+    background-color: var(--dpad-color);
+    mask: var(--dpad-url);
+    -webkit-mask: var(--dpad-url);
+    transform: rotate(90deg);
+}
+
+.dpad-right:hover,
+.dpad-right:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-down {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 192px;
+    top: 121px;
+    background-color: var(--dpad-color);
+    mask: var(--dpad-url);
+    -webkit-mask: var(--dpad-url);
+    transform: rotate(180deg);
+}
+
+.dpad-down:hover,
+.dpad-down:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.dpad-left {
+    width: 55.82px;
+    height: 89.52px;
+    display: block;
+    position: absolute;
+    left: 147px;
+    top: 77px;
+    background-color: var(--dpad-color);
+    mask: var(--dpad-url);
+    -webkit-mask: var(--dpad-url);
+    transform: rotate(270deg);
+}
+
+.dpad-left:hover,
+.dpad-left:focus {
+    background-color: var(--dpad-color-hover);
+}
+
+.bumper-left {
+    width: 87px;
+    height: 211px;
+    display: block;
+    position: absolute;
+    left: 19px;
+    top: 19px;
+    background-color: var(--bumper-color);
+    mask: var(--bumper-url);
+    -webkit-mask: var(--bumper-url);
+}
+
+.bumper-left:hover,
+.bumper-left:focus {
+    background-color: var(--bumper-color-hover);
+}
+
+.bumper-left::after { 
+    left: 30px;
+    top: 80px;
+    position: absolute;
+    content: "L";
+    color: var(--text-color);
+}
+
+.bumper-left:hover::after,
+.bumper-left:focus::after {
+    color: var(--text-hover-color);
+}
+
+.bumper-right {
+    width: 87px;
+    height: 211px;
+    display: block;
+    position: absolute;
+    left: 794px;
+    top: 19px;
+    background-color: var(--bumper-color);
+    mask: var(--bumper-url);
+    -webkit-mask: var(--bumper-url);
+}
+
+.bumper-right:hover,
+.bumper-right:focus {
+    background-color: var(--bumper-color-hover);
+}
+
+.bumper-right::after { 
+    left: 30px;
+    top: 80px;
+    position: absolute;
+    content: "R";
+    color: var(--text-color);
+}
+
+.bumper-right:hover::after,
+.bumper-right:focus::after {
+    color: var(--text-hover-color);
+}
+
+.x {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 609px;
+    top: 38px;
+    background-color: var(--x-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.x:hover,
+.x:focus {
+    background-color: var(--x-color-hover);
+}
+
+.x::after { 
+    left: 15px;
+    top: 8px;
+    position: absolute;
+    content: "X";
+    color: var(--text-color);
+}
+
+.x:hover::after,
+.x:focus::after {
+    color: var(--text-hover-color);
+}
+
+.b {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 609px;
+    top: 153px;
+    background-color: var(--b-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.b:hover,
+.b:focus {
+    background-color: var(--b-color-hover);
+}
+
+.b::after { 
+    left: 15px;
+    top: 8px;
+    position: absolute;
+    content: "B";
+    color: var(--text-color);
+}
+
+.b:hover::after,
+.b:focus::after {
+    color: var(--text-hover-color);
+}
+
+.y {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 524px;
+    top: 95px;
+    background-color: var(--y-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.y:hover,
+.y:focus {
+    background-color: var(--y-color-hover);
+}
+
+.y::after { 
+    left: 15px;
+    top: 8px;
+    position: absolute;
+    content: "Y";
+    color: var(--text-color);
+}
+
+.y:hover::after,
+.y:focus::after {
+    color: var(--text-hover-color);
+}
+
+.a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 704px;
+    top: 95px;
+    background-color: var(--a-color);
+    mask: var(--abxy-url);
+    -webkit-mask: var(--abxy-url);
+}
+
+.a:hover,
+.a:focus {
+    background-color: var(--a-color-hover);
+}
+
+.a::after { 
+    left: 15px;
+    top: 8px;
+    position: absolute;
+    content: "A";
+    color: var(--text-color);
+}
+
+.a:hover::after,
+.a:focus::after {
+    color: var(--text-hover-color);
+}
+
+.select {
+    width: 56.55px;
+    height: 56.55px;
+    display: block;
+    position: absolute;
+    left: 360px;
+    top: 95px;
+    background-color: var(--select-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
+}
+
+.select:hover,
+.select:focus {
+    background-color: var(--select-color-hover);
+}
+
+.start {
+    width: 56.55px;
+    height: 56.55px;
+    display: block;
+    position: absolute;
+    left: 420px;
+    top: 95px;
+    background-color: var(--start-color);
+    mask: var(--startselect-url);
+    -webkit-mask: var(--startselect-url);
+}
+
+.start:hover,
+.start:focus {
+    background-color: var(--start-color-hover);
+}
+
+
+
+
+
+
