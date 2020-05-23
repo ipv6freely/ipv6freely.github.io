@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -176,7 +176,7 @@ body {
 }
 
 .custom .face.up {
-    width: 55.82px;
+    width: 56px;
     height: 90px;
     left: 50%;
     top: 0;
@@ -188,11 +188,11 @@ body {
 }
 
 .custom .face.down {
-    width: 55.82px;
+    width: 56px;
     height: 90px;
     left: 50%;
-    top: 50%;
-    transform: rotate(180deg) translateX(-50%);
+    top: 100%;
+    transform: rotate(180deg) translate(-50%, -100%);
     background-color: var(--dpad-color);
     mask: var(--dpad-url);
     -webkit-mask: var(--dpad-url);
