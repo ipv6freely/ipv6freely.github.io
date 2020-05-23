@@ -43,7 +43,7 @@ body {
 
 /* This class shows an image when the controller is disconnected */
 .custom.disconnected {
-    background-color: #ffff00;
+    background-color: #ff0000;
 }
 
 /* This class shows the text when controller is disconnected */
@@ -180,8 +180,13 @@ body {
 }
 
 .custom .face.up {
+    width: 55.82px;
+    height: 89.52px;
     left: 50%;
     transform: translateX(-50%);
+    background-color: var(--dpad-color);
+    mask: var(--dpad-url);
+    -webkit-mask: var(--dpad-url);
 }
 
 /*
