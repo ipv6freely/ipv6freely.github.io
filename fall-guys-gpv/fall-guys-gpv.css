@@ -17,8 +17,8 @@ images, graphics, or media to promotional use only.
 
 .controller.custom{
     background: url(base.png); 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom.disconnected { 
@@ -32,21 +32,21 @@ images, graphics, or media to promotional use only.
     background-repeat:no-repeat;
 } 
 .custom .trigger{
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
 
     background-repeat:no-repeat;
 }
 .custom .trigger.left{ 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background: url(LT.png);
     position: absolute;
     background-repeat:no-repeat;
 }
 .custom .trigger.right{
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background: url(RT.png);
     position: absolute;
     background-repeat:no-repeat;
@@ -58,16 +58,16 @@ opacity: 0;
     opacity: 1;
 }
 .custom .bumper.right{
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     left: 4px;
     background: url(RB.png);
     position: absolute;
     background-repeat:no-repeat;
 }
 .custom .bumper.left{
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background: url(LB.png);
     position: absolute;
     background-repeat:no-repeat;
@@ -90,7 +90,7 @@ opacity: 0;
 }
 .custom .back.pressed{
     height: 900px;
-    width: 900px;
+    width: 1280px;
     left: -291px;
     top: -250px;
     background: url(minus.png);
@@ -99,7 +99,7 @@ opacity: 0;
 } 
 .custom .start.pressed{
     height: 900px;
-    width: 900px;
+    width: 1280px;
     left: -291px;
     top: -250px;
     background: url(plus.png);
@@ -118,26 +118,26 @@ opacity: 0;
 }
 .custom .a.pressed{ /* X on PS4*/
     background: url(A.png); 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .b.pressed{ /* circle on PS4*/
     background: url(B.png);
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .x.pressed{ /* square on PS4*/
     background: url(X.png); 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .y.pressed{ /* Triangle on PS4*/
     background: url(Y.png) ; 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .sticks{
@@ -206,27 +206,27 @@ filter: invert(1);
 }
 .custom .touchpad{
     position: absolute;
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .touchpad.pressed{
     background: url(Capture.png); 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .meta{
     position: absolute;
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     top: 1400px;
     background-repeat:no-repeat;
 }
 .custom .meta.pressed{
     background: url(home.png); 
-    height: 800px;
-    width: 900px;
+    height: 720px;
+    width: 1280px;
     top: -00px;
     background-repeat:no-repeat;
 }
