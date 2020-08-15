@@ -10,7 +10,7 @@
     background: url(base.png); 
     height: 720px;
     width: 1280px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 }
 .custom.disconnected { 
     background: url(disconnected.png);
@@ -59,10 +59,7 @@
 }
 .custom .sticks{
     position: absolute;
-    background-repeat:no-repeat;
-}
-.custom .stick{
-    position: absolute;
+    background-repeat: no-repeat;
 }
 .custom .stick.left{
     position: absolute;
