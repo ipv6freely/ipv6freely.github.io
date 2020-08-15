@@ -40,13 +40,13 @@
     background-position-y: -00px;
     margin-top: 0px;
 }
-.custom .b.pressed{ /* X on PS4*/
+.custom .b.pressed{ /* A on Switch*/
     background: url(jump.png); 
     height: 720px;
     width: 1280px;
     background-repeat:no-repeat;
 }
-.custom .y.pressed{ /* square on PS4*/
+.custom .y.pressed{ /* X on Switch*/
     background: url(dive.png); 
     height: 720px;
     width: 1280px;
