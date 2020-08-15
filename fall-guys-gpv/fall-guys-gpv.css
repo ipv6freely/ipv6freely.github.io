@@ -56,19 +56,11 @@
     position: absolute;
     background-repeat: no-repeat;
 }
-/*.custom .stick.left{
+.custom .stick.left{
     position: absolute;
     background: url(sticks.png) no-repeat;
     height: 396px;
     width: 396px;
-    top: 166px;
-    left: 105px;
-}*/
-.custom .stick.left {
-    position: absolute;
-    background: url(sticks.png) no-repeat;
-    height: 396px;
-    width: 396px;
-    bottom: -166px;
-    right: -787px;
+    top: 162px;
+    left: 101px;
 }
