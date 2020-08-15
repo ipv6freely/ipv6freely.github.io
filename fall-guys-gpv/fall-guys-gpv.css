@@ -25,7 +25,7 @@
 .custom .trigger.right{
     height: 720px;
     width: 1280px;
-    background: url(RT.png);
+    background: url(grab.png);
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -41,13 +41,13 @@
     margin-top: 0px;
 }
 .custom .a.pressed{ /* X on PS4*/
-    background: url(A.png); 
+    background: url(jump.png); 
     height: 720px;
     width: 1280px;
     background-repeat:no-repeat;
 }
 .custom .x.pressed{ /* square on PS4*/
-    background: url(X.png); 
+    background: url(dive.png); 
     height: 720px;
     width: 1280px;
     background-repeat:no-repeat;
