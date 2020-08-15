@@ -147,22 +147,22 @@ opacity: 0;
 .custom .stick{
     position: absolute;
 }
-.custom .stick.pressed.left{
+/*.custom .stick.pressed.left{
 filter: invert(1);
 }
 .custom .stick.pressed.right{
 filter: invert(1);
-}
+}*/
 .custom .stick.left{
     position: absolute;
     background: url(sticks.png);
     height: 320px;
     width: 320px;
-    top: 248px;
-    left: 136px;
+    top: 200px;
+    left: 139px;
     background-repeat:no-repeat;
 }
-.custom .stick.right{
+/*.custom .stick.right{
     position: absolute;
     background: url(sticks.png);
     height: 320px;
@@ -170,7 +170,7 @@ filter: invert(1);
     top: 371px;
     left: 503px;
     background-repeat:no-repeat;
-}
+}*/
 .custom .dpad{
     height: 624px;
     width: 840px;
