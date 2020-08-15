@@ -82,8 +82,8 @@
 .custom .stick.left{
     position: absolute;
     background: url(sticks.png) no-repeat;
-    height: 320px;
-    width: 320px;
-    top: 200px;
-    left: 139px;
+    height: 396px;
+    width: 396px;
+    top: 166px;
+    left: 105px;
 }
