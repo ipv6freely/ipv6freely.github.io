@@ -156,8 +156,8 @@ filter: invert(1);
 .custom .stick.left{
     position: absolute;
     background: url(sticks.png);
-    height: 132px;
-    width: 132px;
+    height: 320px;
+    width: 320px;
     top: 248px;
     left: 136px;
     background-repeat:no-repeat;
@@ -165,8 +165,8 @@ filter: invert(1);
 .custom .stick.right{
     position: absolute;
     background: url(sticks.png);
-    height: 132px;
-    width: 132px;
+    height: 320px;
+    width: 320px;
     top: 371px;
     left: 503px;
     background-repeat:no-repeat;
