@@ -64,11 +64,11 @@
     top: 166px;
     left: 105px;
 }*/
-.custom .stick.left{
+.custom .stick.left {
     position: absolute;
     background: url(sticks.png) no-repeat;
     height: 396px;
     width: 396px;
-    bottom: 166px;
-    right: 787px;
+    bottom: -166px;
+    right: -787px;
 }
