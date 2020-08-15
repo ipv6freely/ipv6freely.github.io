@@ -1,19 +1,5 @@
-/*
-Find me @Jayraydee on twitter!
-Terms and Conditions:
-No Refunds on digital goods, If you have questions concerning your order please contact us.
-Your purchase grants you the right to use and display the images for commercial use via streaming,
-recorded and rebroadcasted media. 
-Your license does not include the right to redistribute copies in anyway, including but not limited to:
-advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original
-files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller
-from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The 
-Seller the right to use and publish images, graphics, or media to further promote their services, including 
-portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these 
-images, graphics, or media to promotional use only.
-*/
-/*BEGIN Pro Joy Controller Styling*/
-/*This class defines the base attributes of the skin*/
+/* Fall Guys Custom Controller */
+/* Don't steal my shit! */
 
 .controller.custom{
     background: url(base.png); 
@@ -50,60 +36,6 @@ images, graphics, or media to promotional use only.
     background: url(RT.png);
     position: absolute;
     background-repeat:no-repeat;
-}
-.custom .bumper{
-opacity: 0;
-}
-.custom .bumper.pressed{ 
-    opacity: 1;
-}
-.custom .bumper.right{
-    height: 720px;
-    width: 1280px;
-    left: 4px;
-    background: url(RB.png);
-    position: absolute;
-    background-repeat:no-repeat;
-}
-.custom .bumper.left{
-    height: 720px;
-    width: 1280px;
-    background: url(LB.png);
-    position: absolute;
-    background-repeat:no-repeat;
-}
-.custom .arrows{
-    position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
-    background-repeat:no-repeat;
-}
-.custom .back{ /* share */
-    opacity: 0;
-    position: absolute;
-}
-.custom .start{ /* options */
-    opacity: 0;
-    position: absolute;
-}
-.custom .back.pressed{
-    height: 900px;
-    width: 1280px;
-    left: -291px;
-    top: -250px;
-    background: url(minus.png);
-    position: absolute;
-    opacity: 1;
-} 
-.custom .start.pressed{
-    height: 900px;
-    width: 1280px;
-    left: -291px;
-    top: -250px;
-    background: url(plus.png);
-    opacity: 1;
 }
 .custom .abxy{
     position: absolute;
@@ -147,87 +79,11 @@ opacity: 0;
 .custom .stick{
     position: absolute;
 }
-/*.custom .stick.pressed.left{
-filter: invert(1);
-}
-.custom .stick.pressed.right{
-filter: invert(1);
-}*/
 .custom .stick.left{
     position: absolute;
-    background: url(sticks.png);
+    background: url(sticks.png) no-repeat;
     height: 320px;
     width: 320px;
     top: 200px;
     left: 139px;
-    background-repeat:no-repeat;
 }
-/*.custom .stick.right{
-    position: absolute;
-    background: url(sticks.png);
-    height: 320px;
-    width: 320px;
-    top: 371px;
-    left: 503px;
-    background-repeat:no-repeat;
-}*/
-.custom .dpad{
-    height: 624px;
-    width: 840px;
-    background-repeat:no-repeat;
-}
-.custom .face{
-    background: url(dpad.png);
-    position: absolute;
-}
-.custom .face.right.pressed{
-    background: url(R.png); 
-    height: 1024px;
-    width: 1024px;
-    background-repeat:no-repeat;
-}
-.custom .face.left.pressed{
-    background: url(L.png); 
-    height: 1024px;
-    width: 1024px;
-    background-repeat:no-repeat;
-}
-.custom .face.up.pressed{
-    background: url(U.png); 
-    height: 1024px;
-    width: 1024px;
-    background-repeat:no-repeat;
-}
-.custom .face.down.pressed{ 
-    background: url(D.png); 
-    height: 1024px;
-    width: 1024px;
-    background-repeat:no-repeat;
-}
-.custom .touchpad{
-    position: absolute;
-    height: 720px;
-    width: 1280px;
-    background-repeat:no-repeat;
-}
-.custom .touchpad.pressed{
-    background: url(Capture.png); 
-    height: 720px;
-    width: 1280px;
-    background-repeat:no-repeat;
-}
-.custom .meta{
-    position: absolute;
-    height: 720px;
-    width: 1280px;
-    top: 1400px;
-    background-repeat:no-repeat;
-}
-.custom .meta.pressed{
-    background: url(home.png); 
-    height: 720px;
-    width: 1280px;
-    top: -00px;
-    background-repeat:no-repeat;
-}
-/*END Pro Joy Controller Styling*/
